@@ -37,7 +37,8 @@ parkinsons_model = load_model('parkinsons_model.sav')
 
 # Sidebar for navigation
 with st.sidebar:
-    selected = option_menu("Zaheer's 👇 \n Shifa - AI \n (Predict Health on your own 😎)",
+    selected = option_menu("Zaheer's 👇 (Predict Health on your own 😎)",
+                           ("Shifa - AI",
                            ['Diabetes Prediction', 'Heart Disease Prediction', 'Parkinsons Prediction'],
                            menu_icon='hospital-fill',
                            icons=['activity', 'heart', 'person'],
